@@ -5,9 +5,9 @@
     font-family: sans-serif;
 }
 body {
-    background-color:whitesmoke;
+    background-color:black;
     background-repeat: initial;
-    color:blueviolet;
+    color:whitesmoke;
     text-align: center;
     font: sans-serif;
 }
@@ -21,7 +21,7 @@ body {
     margin-top: 100px;
     width: 150px;
     height: 150px;
-    border: solid 10px darkmagenta;
+    border: solid 10px whitesmoke;
     border-radius: 50%;
     background-color: white;
 }
@@ -33,7 +33,7 @@ body {
 .link-bio p {
     margin: 10px;
     background-color: white;
-    color: darkmagenta;
+    color: whitesmoke;
     padding: 10px;
     font-size: 12px;
 }
@@ -41,8 +41,8 @@ body {
     margin-bottom: 10px;      
 }
 button {
-    background-color:darkmagenta;
-    color: whitesmoke;
+    background-color:whitesmoke;
+    color: black;
     font-size: 15px;
     padding: 10px;
     display: inline-block;
@@ -59,8 +59,8 @@ button:hover {
 }
 .doacoes p {
     margin: 10px;
-    background-color: white;
-    color: darkmagenta;
+    background-color: whitesmoke;
+    color: black;
     padding: 10px;
     font-size: 12px;
     
