@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 body {
-    background-color:black;
+    background-color:rgb(#443E54, #2A2634, #9A35FF);
     background-repeat: initial;
     color:whitesmoke;
     text-align: center;
@@ -32,8 +32,8 @@ body {
 }
 .link-bio p {
     margin: 10px;
-    background-color: white;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
     padding: 10px;
     font-size: 12px;
 }
