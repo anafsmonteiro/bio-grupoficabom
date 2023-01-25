@@ -2,46 +2,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
+
+.infos img{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border: solid 5px #c0c0c0;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.infos h1{
+    font-size: 22px;
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 body {
-    background-color: white);
-    background-repeat: initial;
+    background: linear-gradient(#e9e9e9,#d0d0d0,#c0c0c0);
     color:black;
     text-align: center;
-    font: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-.link-bio {
+
+p, .doacoes p {
+    margin: 20px 0 20px 0;
+    background-color: #FEFEFE;
+    color: #000000;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.links {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
 }
-.link-bio img {
-    margin-top: 100px;
-    width: 150px;
-    height: 150px;
-    border: solid 10px whitesmoke;
-    border-radius: 50%;
-    background-color: white;
-}
-.link-bio h1{
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.link-bio p {
-    margin: 10px;
-    background-color: #d0d0d0;
-    color: black;
-    padding: 10px;
-    font-size: 12px;
-}
-.link-bio a {
+
+.links a {
     margin-bottom: 10px;      
 }
+
 button {
-    background-color:#d0d0d0;
+    background-color:#FEFEFE;
     color: black;
     font-size: 15px;
     padding: 10px;
@@ -56,12 +64,10 @@ button:hover {
 .doacoes h2 {
     font-size: 20px;
     margin: 10px;
+    text-transform: uppercase;
 }
-.doacoes p {
-    margin: 10px;
-    background-color: #d0d0d0;
-    color: black;
-    padding: 10px;
-    font-size: 12px;
-    
+
+.pix {
+    font-weight: bold;
+    margin: 0 0 20px 0;
 }
